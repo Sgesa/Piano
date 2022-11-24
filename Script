@@ -1,1 +1,1493 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("Private Ui", "Synapse")
+local Tab1 = Window:NewTab("Private UI")
+local Tab1Section = Tab1:NewSection("Auto Piano")
 
+Tab1Section:NewButton("Stop Piano", "Info", function()
+shared.stop = true -- stops the player at any time if true -- CONFIG: 
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |) 
+shared.delay = nil -- delay overides the ftime 
+shared.tempo = nil -- tempo overides the delay 
+shared.scr = [[ e ]]
+loadstring(game:HttpGet("https://pastebin.com/raw/xUUbCCC4"))();
+end)
+
+Tab1Section:NewButton("A whole new wrld", "Info", function()
+shared.stop = true -- stops the player at any time if true -- CONFIG: 
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |) 
+shared.delay = nil -- delay overides the ftime 
+shared.tempo = nil -- tempo overides the delay 
+shared.scr = [[ 2-6-0-Q----
+2-
+6-0-Q----
+6--
+2-6-0-Q----
+2-
+6-0-Q----
+6--
+[2eI]-6-[9wu]-[ro]--
+[eI]-[wy]--
+[Q2e]-6-0-Q----
+[2eI]-6-[9wu]-[ro]--
+I-y--
+[7wyI]----
+[*eu]----
+[5ru]--Y-[$EI]--
+u-[^T]--
+[T7u]--[ry]--
+[6eT]--[ry]--
+[5wr]-[9T]-w-[eu]--
+y--e-
+[2Q]----e-
+y--[T6wu]--
+[2eyI]-6-[9wu]-[ro]--
+[eI]-[wy]--
+[Q2e]-6-0-Q----
+[2eI]-6-[9wu]-[ro]--
+I-y--
+[7wyI]----
+[*eu]----
+[5ru]--Y-[$EI]--
+u-[^T]--
+[Q7u]--y--
+[6T]--y--
+[5r]-[9T]-w-[ru]--
+y--I-
+2-6-9-[yI]-
+[uo]--a--
+[T6p]-e-T-[7y]-
+[*u]--[6e]--
+[2yI]-6-9-[yI]-
+[uo]--[oa]--
+[T6ep]-u--[*Teo]--
+I-6-I-
+[9u]--e--
+[yI]-o--p-
+[5pS]-9-[woa]--
+[Qup]--y-y-
+[5pS]-9-[woa]--
+[Qup]--y-y-
+[7eI]-u--y-
+[0e]-r-[Wry]--
+[6wru]--w-[yI]-
+[uo]--[oa]--
+[T6p]-e-T-[7y]-
+[*u]--[6e]--
+[2yI]-6-9-[yI]-
+[uo]--[oa]--
+[T6up]-u--[^Tuo]--
+I-^-[uTI]-
+[7ryI]----
+[29tI]-o--p-
+[5pS]-9-[woa]--
+[Qup]--y-y-
+[5pS]-9-[wad]--
+[Qup]--y-y-
+[7yQI]--[eu]--
+[3ey]--[Wu]--
+[8uo]--I--
+[6wy]--T--
+[2y]-[6yu]-0-[Qo]--
+I--a-
+2-[6p]-0-Q-
+f--d--
+[4ps]-8-[Eqo]-[yP]--
+[tp]-[Ei]--
+[4et]-8-q-w-
+E----
+[4tp]-8-[Eqo]-[yP]--
+[tp]-[ei]--
+[E9ip]----
+[0to]----
+[^yo]--I-p-
+[6y]-o-[Tu]--
+[9uo]--[yi]--
+[8eu]--i--
+[^y]-[qu]-E-o--
+i--p-
+[4t]-8-q-[tp]-
+[oP]--[Pd]--
+[8us]--p-[9p]-
+[0p]-o-8-i-
+[4et]-8-q-[ip]-
+[oP]--[Pd]--
+[8tus]--o-0-
+P--8-p-
+[qop]-i----
+[ip]--[qP]-s-
+[^sf]-q-[EPd]--
+[eos]--i-i-
+[^sf]-q-[EPd]--
+[eos]--i-i-
+[9tp]--o--
+[5ti]--[ro]--
+[8yiP]-q-[Ep]--
+i--y--
+[8uo]--p-[9p]-
+[0p]-o-8-i-
+[4et]-8-q-[ip]-
+[oP]--[Pd]--
+[8us]-o-p-p-
+[*Eup]-o--i-
+[9eyo]-i----
+[Y8ip]-P--s-
+[^sf]-q-[EPd]--
+[eops]--i-i-
+[^sf]-q-[Edg]--
+[eops]--i--
+[9etp]--o--
+[5i]--[ro]--
+[o@YP]-^-[(p]--
+[E1yi]-5-[E8u]--
+[2eyi]----6-
+9--q--
+[18eti]----[ip]-
+[oP]--[Pd]--
+[^yis]----p-
+P--d--
+[6tis]-q-e-p-
+P--d--
+[5tis]----p-
+P--d--
+[6tis]-q-e-p-
+P--d--
+[^tis]----p-
+P--d--
+[Ptis]8----t-
+[ip]--[uo]----
+js4--hP-Jd----
+[sj]-8Pg--
+sp4--o-P--
+p-i--
+4js--hP-[dJ]--
+js-8gP--
+4[gl]s-8--q--w--
+e--t--i--o--
+psg j ]]
+loadstring(game:HttpGet("https://pastebin.com/raw/xUUbCCC4"))();
+end)
+
+Tab1Section:NewButton("All i want", "Info", function()
+shared.stop = true -- stops the player at any time if true -- CONFIG: 
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |) 
+shared.delay = nil -- delay overides the ftime 
+shared.tempo = nil -- tempo overides the delay 
+shared.scr = [[ [o(YP]###[Y8to]###[E5wy]###
+[t%(WY]###[tWY]###[%(]###[tWY]###[%(]###[tWY]###[%(]###
+[o(YP]###[Y8to]###[E5wy]###
+[t%(WY]###[tWY]###[%(]###[tWY]###[%(]###[tWY]###[%(E]###
+[@(EYo]###P###P###[18]###o###i###[E5wi]###Y###Y###
+[%(Wt]###[tWY]###[%(]###[tWY]###[%(]###[tWY]###[%(E]###
+[@(EYo]###P###P###[18]###o###i###[E5wi]###Y###o###
+[%(o]###i###Y###[Wt]###[%(]###[tWY]###[%(]###[(Wt]###Y###[%(Y]###
+[(Y8wo]###o###(###o###8###[^E9qo]###i###9###[^Y]###Y###
+[%(to]###i###i###Y###[%(]###t###[%(]###[%(E]###E###
+[(Y8wto]###o###o###(###[8o]###[Eo]###[^9q]###i###Y###9###[y^P]###
+[t%(YP]###O###o###[%(]###[8%(Y]###
+[o@(YP]###[Y18to]###[E5wy]###
+[t%(WY]###[tWY]###[%(]###[tWY]###[%(]###[tWY]###[%(E]###E###
+[@(EYo]###P###[18oYP]###o###[E5wyi]###Y###
+[t%(WY]###[tWY]###[%(]###[tWY]###[%(]###[tWY]###[%(]###E###
+[@(Yo]###P###[Yos]###[18]###o###i###[E5wi]###Y###
+[t%(YO]###o###i###Y###t###Y###[%(t]###[%(]###[%(E]###E###
+[(Y8wto]###o###(###i###[8Y]###i###[^E9qyo]###i###9###[^Y]###
+[%(to]###i###i###[%(]###Y###Y###[%(t]###[%(E]###
+[@(o]###o###[@(o]###[29P]###[yi]###Y###[29Y]###
+[%(P]###P###O###o###[%(]###Y###[%(]###[8%(]###[YD]###
+[ig]###[ig]###[^q]###[ig]###[YD]###[^E9qig]###[oh]###[oh]###[oh]###
+[9q^EOH]###[OH]###[OH]###[PJ]###[9q^EPJ]###
+[8%(W]###o###P###P###[9q^E]###o###i###Y###o###
+[w^(E]###Y###o###P###P###[(8wt]###o###i###o###t###
+[%(]###o###P###[%(P]###[^qo]###i###Y###O###[^q]###
+[^(oh]###[8wig]###[^qoh]###[8wYD]###
+[%(ts]###o###P###[%(]###P###[^9q]###[9q^P]###P###s###[^9q]###
+[(Eo]###Y###Y###o###P###P###[8w]###o###i###[%(o]###
+[%(t]###[%(]###o###[q^P]###[q^P]###o###i###Y###[^qo]###
+[@(o]###o###i###[29o]###P###o###i###[18Y]###Y###o###[^i]###Y###Y###t###
+[%(]###[tWY]###[%(]###[tWY]###[tWY]###[tWY]###
+[9q^O]###O###O###O###o###O###o###o###o###
+[@(]###[oYP]###[29]###[yoP]###[18]###[Yto]###^###[EYo]###
+[%(]###[tWY]###[%(]###[tWY]###[tWY]###[tWY]###
+[@(]###[oYP]###[29]###[yoP]###[18]###[Yto]###^###[EYo]###
+[%(]###[tWY]###[tWY]###[tWY]###
+[^E9qyi]###E###E###
+[@(EYo]###P###P###8###o###[(o]###i###[E5wi]###Y###Y###
+[%(o]###[%(]###[tWY]###Y###Y###Y###o###
+[@(P]###s###[8o]###[(i]###i###[5wo]###Y###t###Y###
+[%(t]###[%(]###Y###i###i###
+[9q^E]###i###i###Y###o###[^E9qo]###o###o###O###
+[9q^EO]###O###P###P###[8%(W]###o###P###s###
+[80wts]###[9q^E]###p###s###s###
+[80wt]###p###o###i###p###[8qet]###o###p###s###s###
+[9qey]###p###o###p###i###[^q]###y###[^qp]###s###
+[8w]###s###s###d###[8wp]###[4qP]###p###
+[9eo]###[8wp]###[9ei]###[^qy]###p###s###[^q]###s###
+[80w]###[80ws]###s###d###[9qe]###p###[9ei]###i###p###[9es]###s###
+[9ep]###[^qo]###p###[^qy]###[^q]###p###[8ws]###
+s###[8w]###p###o###i###[8wp]###[4qp]###p###o###
+[30p]###s###p###o###[29i]###i###p###[18o]###i###i###y###
+[^q]###[Eyi]###[^q]###[Eyi]###[Eyi]###t###
+[80wP]###P###P###u###u###u###u###y###u###i###
+[4q]###[ips]###[30]###[ups]###[29]###[yip]###[18]###[tip]###
+[^q]###[Eyi]###[^q]###[Eyi]###[Eyi]###[Eyi]###
+[8wtuo]###
+[4q]###[ips]###[30]###[ups]###[29]###[yip]###[18]###[tip]###
+[^q]###[Eyi]###[Eyi]###[8w]###[tuo]###[tuo]###
+[6t]###[8i]###[qp] ]]
+loadstring(game:HttpGet("https://pastebin.com/raw/xUUbCCC4"))();
+end)
+
+Tab1Section:NewButton("Atlantist", "Info", function()
+shared.stop = true -- stops the player at any time if true -- CONFIG: 
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |) 
+shared.delay = nil -- delay overides the ftime 
+shared.tempo = nil -- tempo overides the delay 
+shared.scr = [[ [W0ru] O u a u O u a 
+u O u a [QETI] P I a 
+[rWYO]-a-O-a-
+O-a-O-a-
+[W0ru] O u a u O u a 
+u O u a u O u a 
+[rWYO]--a-O-I 
+[QETP]----I 
+[3a] 7 [0a] [7a] W [7P] 0 [7O] 
+3 7 0 7 $ * Q [*a] 
+[%S] ( [Wa] [(P] r [(a] W [(a] 
+[%P] [(O] W ( r ( [Wa] ( 
+[3S] 7 [0a] [7P] W [7a] 0 [7S] 
+3 [7a] 0 7 [Wa] [7D] [0D] 7 
+%--7-%-$ 
+^----Y Y-
+[3a] 7 [0a] [7a] W [7P] 0 [7O] 
+3 7 0 7 $ * [Qa] [*a] 
+[%S] ( [Wa] ( [rP] [(a] W [(a] 
+% [(P] [WO] ( $ * Q * 
+[3S] 7 [0a] [7P] W [7a] 0 [7S] 
+3 [7a] 0 [7P] W [7D] 0 7 
+[%D]--7-%-$ 
+[^S]----I 
+[!*O] % [*O] % [0WO] * [0I] [*O] 
+[!*] [%O] * [%D] [0W] * 0 [*I] 
+[30O] [7O] [0O] 7 [rWO] 0 [WI] [0O] 
+[30] [7O] 0 [7D] [Wr] 0 [WD] 0 
+[%WS] ( W ( [Yra] W [ra] W 
+[%W] ( W ( [rY] W r [WD] 
+[$QH] [*G] Q [*D] [ET] [QD] E [QD] 
+[$Q] * Q [*f] [ET] [QD] E Q 
+[!*OH] % [*IG] % [0WYD] * [0YD] [*OH] 
+[!*] [%IG] * [%YD] [0W] * 0 * 
+[30OH] 7 [0IG] 7 [rWYD] 0 [WYD] [0OH] 
+[30] [7IG] 0 [7YD] [Wr] 0 [Wuf] 0 
+[%WYD] ( W ( [rY] W r W 
+[%W] ( W ( [rY] W [rTS] W 
+[$QTS] * Q * [ETYD] Q E Q 
+[$Quf] * Q * [ETYD] Q E Q 
+3-[D3ak] 7 0-[QTS]-
+[WYD]-[QTS] 0 [$Yra]--
+%-[%Dak] ( W-[ETS]-
+[rYD]-[ETS] W [(ra]-[%YD]-
+$-[$TS] * Q-W-
+E-W-Q-* [YD] 
+[$OH] [IG] $ [*YD] Q [YD] W [YD] 
+E [uf] W [QYD] *-$-
+3-[D3ak] 7 0-[QTS]-
+[WYD]-[QTS] 0 [$Yra]--
+%-[%Dak] ( W-[ETS]-
+[rYD]-[ETS] W [(ra]-[%YD]-
+$-[$TS] * Q-W-
+E-W-Q-* [YD] 
+[$OH] [IG] $ [*YD] Q [YD] W [YD] 
+E [uf] W [QYD] *-$-
+[0L] W 0 r 0 W 0 r 
+[0C] W 0 r Q E Q T 
+[WZ] r W Y W r W Y 
+W r W Y Q E Q T 
+[0L] W 0 r 0 W 0 r 
+0 W 0 r [0C] W 0 r 
+[WZ]--r-W-Q 
+[EL]----Y 
+[3ua] 7 [0ua] [7ua] W [7uP] 0 [7uO] 
+3 7 0 7 $ * Q [*O] 
+[%OS] ( [Wa] [(P] r [(Oa] W [(Oa] 
+[%P] [(O] W ( r ( W ( 
+[3uS] 7 [0ua] [7uP] W [7ua] 0 [7uS] 
+3 [7ua] 0 7 [WOa] [7OD] [0OD] 7 
+%--7-%-$ 
+^----Y 
+[3ua] 7 [0ua] [7ua] W [7uP] 0 [7ua] 
+[3uP] [7uO] 0 7 $ * [QO] [*O] 
+[%OS] ( [Wa] [(P] r [(Oa] W [(Oa] 
+[%P] [(O] W ( $ * [QO] [*O] 
+[3uS] 7 [0ua] [7uP] W [7ua] 0 [7uS] 
+3 [7ua] 0 7 [WOa] [7OD] [0OD] 7 
+%--7-%-$ 
+[^IS]----I 
+[u!*O] % [u*O] % [0uWO] * [0I] [u*O] 
+[!*] [u%O] * [%OD] [0W] * 0 [*I] 
+[30uO] 7 [0uO] 7 [ruWO] 0 [WI] [0uO] 
+[30] [7uO] 0 [7OD] [Wr] 0 [WOD] 0 
+[%WOS] ( W ( [YOra] W [Ora] W 
+[%W] ( W ( [rY] W r [WD] 
+[$QPH] [*PG] Q [*PD] [ET] [QPD] E [QPD] 
+[$Q] * Q [*Pf] [ET] [QPD] E Q 
+[!*OH] % [*IG] % [0WYD] * [0YD] [*OH] 
+[!*] [%IG] * [%YD] [0W] * 0 * 
+[30OH] 7 [0IG] 7 [rWYD] 0 [WYD] [0OH] 
+[30] [7IG] 0 [7YD] [Wr] 0 [Wuf] 0 
+[%WYD] ( W ( [rY] W r W 
+[%W] ( W ( [rY] W [rTS] W 
+[$QTS] * Q * [ETYD] Q E Q 
+[$Quf] * Q * [ETYD] Q E Q 
+3-[D3ak] 7 0-[QTS] W 
+[rYD]-[WTS] Q [$Yra]--
+%-[%Dak] ( W-[ETS] r 
+[YD]-[rTS] E [Wra]-[(YD]-
+$-[$TS] * Q-W E 
+T-E W Q-* [YD] 
+[$OH] [IG] $ [*YD] Q [YD] W [EYD] 
+T [uf] E [WYD] Q-*-
+3-[D3ak] 7 0-[QTS] W 
+[rYD]-[WTS] Q [$Yra]--
+%-[%Dak] ( W-[ETS] r 
+[YD]-[rTS] E [Wra]-[(YD]-
+$-[$TS] * Q-W E 
+T-E W Q-* [YD] 
+[$OH] [IG] $ [*YD] Q [YD] W [EYD] 
+T [uf] E [WYD] Q-*-
+[W0r]----
+[QET]-D D 
+[rWYH]-G G-D D H-
+G G-[QET]-V-
+[0rWC]--Z--L-
+k----D D 
+[rWYH]-G G-D-D 
+[QET] f-D----
+[W0ru]----
+[QETI]-D D 
+[rWYOH]-G G-D D H-
+G G-[QETI]-V-
+[0ruWC]--Z--L-
+k----D D 
+[rWYOH]-G G-D-D 
+[QETI] f-D----
+3-[D3ak] % 7 0 [QTS] W 
+[rYD] W [QTS] 0 [$Yra]--
+%-[%Dak] 7 ( W [ETS] r 
+[YD] r [ETS] W [(ra] 7 [%YD]-
+$-[$TS] ^ * Q W E 
+T E W Q * ^ $ [YD] 
+[$OH] [IG] $ [^YD] * [QYD] W [EYD] 
+T [Euf] W [QYD] * ^ $-
+3-[D3ak] % 7 0 [QTS] W 
+[rYD] W [QTS] 0 [$Yra]--
+%-[%Dak] 7 ( W [ETS] r 
+[YD] r [ETS] W [(ra] 7 [%YD]-
+$-[$TS] ^ * Q W E 
+T E W Q * ^ $ [YD] 
+[$OH] [IG] $ [^YD] * [QYD] W [EYD] 
+T [Euf] W [QYD] * ^ $-
+[0x] W 0 r 0 W 0 r 
+0 W 0 r Q E Q T 
+[WZ] r W Y W r W Y 
+W r W Y Q E Q T 
+[0x] W 0 r 0 W 0 r 
+0 W 0 r 0 W 0 r 
+[WZ]--r-W-Q 
+[EL]----
+[0rk] ]]
+loadstring(game:HttpGet("https://pastebin.com/raw/xUUbCCC4"))();
+end)
+
+Tab1Section:NewButton("Binks sake-once piece", "Info", function()
+shared.stop = true -- stops the player at any time if true -- CONFIG: 
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |) 
+shared.delay = nil -- delay overides the ftime 
+shared.tempo = nil -- tempo overides the delay 
+shared.scr = [[ [hJ]-P [Gj]-P [gH]-P
+[@Dh]-[wEY] D ^-g[EYwh]-
+[4sg]-[tY]-[ps] 6 asasa[qts]asasasas
+%-[tsWYD]-[%D]-g [tWYG]-
+[@Dh]-[wEY]-P @-s[wEYP]sD 
+[%g]-[tWYG]-g [%G]-g [tWYD]-
+[o@PD]-oP[wEYS]sP [@o]-i [wEY]-H
+[4j]gs [tiWO]-O [4p]-P [etis]-
+[Ed]-[Yts]-P E-[yi]-
+[4p]gp [etP]hP [4a]Ha [ets]js 
+[ydEJ]-[8EYP]-[u*EP]-[9iEP]-
+[@o]P P[w(EP]-^-[(Ews]-P
+[@o]-[w(EP]-^-[w(E]-
+[@o]P P[w(EP]-^-[E9qs]-P
+[@o]-[w(EY]-[18wiP]-[29ip]-
+[@o]P P[wEYP]-2-[E9qs]-P
+[!o]-[qWTP]-1-[Ewt]-
+[4o]P P[qWYP]-^-[WYqs]-P
+[@o]-[w(EY]-[4OD]-[P5d]-
+[%P] sD[QEY] Dg [@G]gD [QEY]-
+[eiYG]gD [4g]Ds [q^WP]--
+[@J]-h [(Ewg]-D [%s]-d [t(WD]-
+[@J]-h [(Ewg]-D [(Wts]-D [w(EP]-
+[(Wts]-D [w(EP]-[(Wts]-d D-H 
+[4h]-h [Wqtg]-D [^g]-[Eqy]-
+[@J]-h [(Ewg]-D [%s]-d [t(WD]-
+[@J]-h [(Ewg]-D [(Wts]-D [w(EP]-
+[(Wts]-D [w(EP]-[(Wts]-d D-H 
+[4h]-D [Eqig]-g [w(YD]--
+%-[tsWYD]-s [s%D]-g [tWYG]-
+[@Dh]-[wEY]-[PD] @-s[wEYP]sD 
+[%sg]-[tWYG]-g [%G]-g [tWYD]-
+[o@PD]-oP[wEYS]sP [@o]-i [wEY]-H
+[4j]gs [tiWO]-OO[4p]-P [etis]-
+[Ed]-[Yts]-[EP]-[yi]-
+[4p]gp [etP]hP [4a]Ha [ets]js 
+[ydEJ]-[8EYP]-[u*EP]-[9iEP]-
+[@J]-h [(Ewg]-D [%s]-d [t(WD]-
+[@J]-h [(Ewg]-D [(Wts]-D [w(EP]-
+[(Wts]-D [w(EP]-[(Wts]-d D-H 
+[4h]-h [Wqtg]-D [^g]-[Eqy]-
+[@J]-h [(Ewg]-D [%s]-d [t(WD]-
+[@J]-h [(Ewg]-D [(Wts]-D [w(EP]-
+[(Wts]-D [w(EP]-[(Wts]-d D-H 
+[4h]-D [Eqyg]-g [w(YD]--
+[@o]P P[w(EP]-^-[(Ews]-P
+[@o]-[w(EP]-^-[w(E]-
+[@o]P P[w(EP]-^-[E9qs]-P
+[@o]-[w(EY]-[18wiP]-[29ip]-
+[@o]P P[wEYP]-2-[E9qs]-P
+[!o]-[qWTP]-1-[Ewt]-
+[4o] PP[qWYP]-^-[WYqs]-P
+[@o]-[w(EY]-@-[(Wt]-
+[@J]-[(h] [Ewg]-D [(Wts]-d D-
+[5J]-[9h] [Ewg]-D [(Wts]-D [w(EP]-
+[(Wts]-D [w(EP]-[(Wts]-d D-H 
+[4h]-h [(8qg]-D [4g]8(^9-
+[@J]5[^h] [(g]-D [%8s]-d [^(D]-
+[@J]5[^h] [(g]-D [(Wts]-D [w(EP]-
+[(Wts]-D [w(EP]-[(Wts]-d D-H 
+[4h]-D [Eqig]-g [w(YD]--
+[@o]P P[w(EP]-^-[(Ews]-P
+[@o]-[w(EP]-^-[w(E]-
+[@o]P P[w(EP]-^-[E9qs]-P
+[@o]-[w(EY]-[18wiP]-[29ip]-
+[@o]P P[wEYP]-2-[E9qs]-P
+[!o]-[qWTP]-1-[Ewt]-
+[4o]PP [qWYP]-^-[WYqs]-P
+[@o]-[w(EY]-@-[(Wt]-Y 
+@-[w(E]-@-[(Wt]-Y 
+@-[w(E]-@-[(Wt]-Y 
+@-( [hJ]-P [Gj]-P [gH]-P--
+@^Dh ]]
+loadstring(game:HttpGet("https://pastebin.com/raw/xUUbCCC4"))();
+end)
+
+Tab1Section:NewButton("Can we kiss forever", "Info", function()
+shared.stop = true -- stops the player at any time if true -- CONFIG: 
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |) 
+shared.delay = nil -- delay overides the ftime 
+shared.tempo = nil -- tempo overides the delay 
+shared.scr = [[ a--O--u--
+6I--0--I--u--
+3--a--O--u--
+7I--Q--I--
+Y-u-*--aS-[OS]--
+[uS]--[6IS]-a0--Ia-
+pu-O-3--a--
+Oa--[uS]-a-7-p-Q-
+p-r-O-[YI]-uO-*-a
+S S-[OS]-D-u-f-6-D-
+e-f-I-H-u--3--
+r-a-[Wa]--0a--7-
+p-Q-O-r-I-Y-[uO]-
+*--aS-SO--Su--
+6[IS]--[ea]-a-I-p-u-
+O-3--a--[Oa]-S-
+u-a-7-p-Q-p-r-
+O-Ya-[uI]O*--r-S-
+SW--0D-f-6-D-e-f-
+I-H-u-H-3-G-Ga-
+f-[0OG]-H-Gu--7-f-[QG]-
+f-[IG]H-YfGu-*--
+a--O--u--6I--
+eQ-0-IQ-W-[0u]-Q-3--
+a--O--u--
+7I--Q[IC]-x-[IC]-V-[Yx]-
+uC-*--a--O--u--
+6I--eQ-0-[QI]W-
+u0Q-3--a--O--
+u--7I--[QC]-x-
+ICV-[YZ]xu-x[*f]!-*W-a-[!Z]D-
+%LS*-%ka!-H%O-e[Tp][6u]--3-
+6-0eGI*[6T]-6-ka6-[OH]6-O[3u]3-3-a-
+3-7H[30O]--[30]ka-b[pj]-7-7-
+[HV]O-7-[Qr]G7(I--77[YD]-ukf-[*O][!T]-
+!-[!a]-!-H[%O]*--!ka-[jb]p-[Tep][6u]
+6-6-HO-6-0eG[*I]pSf 6-uf-H6
+G[3f]G[3f]-k[3a]0-3-7H3[0O]--0[3u]f--
+7G7I--$-[7D]-LrQ[7(]--Z
+D-xf-[!H]V-*-[0k]-*-W[0TL]Sf--
+k[0Z]D-xf*-6GCHV6-k*-6-0[eSL]6-
+GL H[6*DZ]0 H[6x]f-3[3G]CHV3GC-7k-3GC-WC
+k[0G]7-[7x]fLSW7[kx]f 3ZD-7-7-(-7D-
+7L[(Q]--(ZD-7xf-[!H]V-n[*k]-0HV-
+*-[WT]0f--[0k]-*-6xf-[6kn]-H
+V*-6-e[*0]-[HV]-[GZ][*T]-[6HV]-3GC-3xf-
+[7L]S-3-[7W]0[Of]--7xkf-[3Z]D----
+*--
+a--O--u--
+6I--0--I--u--
+3--a--O--u--
+7I--Q--I--
+Y-u-[*a]S-a--O--
+u--[6IS]-D-e--I--
+u--D3-f-a--
+O--u-D-7fD-Q--
+If--[YS]-u-*f--a--
+O--u-f-6f-G-
+e-HGIf-GHu--3H--
+a--O--Hu-G-[7G]--
+Q--I--Y-u-
+[*a]S-a--O--u--
+[6I]D--e--I--u--
+[3D]-f-a--O--
+u-D-7fD-Q--I--
+Y-u-[*D]-f-r--W--
+0--6f-G-e-H
+GIf-G[uH]--3G-H-ja-
+H-O-GfDu-fD7--
+Q--I--YZD-xuf-!-%-
+*-![DZ]-[%TL][*S]-[ak]!-H[%O]-T[ep]u6-
+6-3-6-0eIT-6-[0k]a-[OH]66-O[3u]
+3-3-a-3-7H[0O]3--k[30]a-bjp-
+77-7-[OH]-77-7GQ[(I]--[7YD]-
+uf-[TO][!*]-!-a*-!-H[%*O]--!
+ka-bjp-[T6eup]--HO-6-0[IG]e[6*]p-6-
+uf-[6H]G3[3f]G[3f]-ka-3-[7H]O03--
+3u[7f]--7[7G]I--$-7-Q[7(]L
+S--Z[7D]-xf-[!H]V-*-0k-*-
+T0[WL]f--Z[Dk]0-x[*f]-6[GC][HV]6-*k-
+6-e[0SL]-GLz HZ[*D]-[0x][6f]-3GCHVC3G-7k-
+3GC-[W0k]G7-xf[SL]7kxf-3[DZ]-7-7-
+(-7D-Lr[(Q]7--Z[(D]-7xf-H[!V]-
+n*k-0[HV]-*-TW0[fx]--[0k]-*-6
+xf-[kn]6-[HV]*-6-0e-G3-HV[*Z]k 6-
+33GC-[3x]f-[7L]Sk-3-W[70H]f--[7x]kf 
+3ZD-7--Q--[IS]--[YD]-
+[uf]-*--a--O--
+u--6I--0--I--
+u--3--a--O--
+u--7I--Q--
+I--Y-u ]]
+loadstring(game:HttpGet("https://pastebin.com/raw/xUUbCCC4"))();
+end)
+
+Tab1Section:NewButton("Dance of the sugar plum fairy", "Info", function()
+shared.stop = true -- stops the player at any time if true -- CONFIG: 
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |) 
+shared.delay = nil -- delay overides the ftime 
+shared.tempo = nil -- tempo overides the delay 
+shared.scr = [[ 0-[ru]-0-[tI]-
+0-[To]-0-[tY]-
+0-[ru]-0-[tI]-
+0-[To]-0-[tY]-
+0-[wh] f [0h]-[eG]-
+[0D]-[Ef]-[0d] d [rd]-
+[0S] S [TS]-[0s] s [Ys]-
+[0a] f [0s] f [0a]-uytr
+E-o u [eo]-I-
+[ws]-a-[Qh] h h-
+[QG] G G-[Qf] f f-
+[rD] G [tf] G [rD]-rewQ
+0-[rh] f [0h]-[tG]-
+[0D]-[Tf]-[0d] d [yd]-
+[0S] S [uS]-[0s] s [Is]-
+[ra] f [ts] f [ra]-oIuy
+[QT]-f S f-IuYT
+[0r]-d a d-uyTr
+[9e]-s p s-ytre
+w-[Qr] I [0o]-3 ]]
+loadstring(game:HttpGet("https://pastebin.com/raw/xUUbCCC4"))();
+end)
+
+Tab1Section:NewButton("Dandelions promise", "Info", function()
+shared.stop = true -- stops the player at any time if true -- CONFIG: 
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |) 
+shared.delay = nil -- delay overides the ftime 
+shared.tempo = nil -- tempo overides the delay 
+shared.scr = [[ u o s f 
+[4f] 8 q g [5d] 9 w-
+[3d] 7 [0h] a [6s] 0 e-
+[4f] [8g] [qh] s [5s] 9 [wd]-
+[8s]f w t y u o s f 
+[4f] 8 q g [5d] 9 w-
+[3d] 7 [0h] a [6s] 0 e-
+[4f] [8g] [qh] s [5s] 9 [wd]-
+[8ws] o [8wi] u [8wu] u i o 
+8 [wo] [to] [wo] 5 [9p] [wa] [9s] 
+6 0 e 0 [6s] [0a] [ef] [0p] 
+4 [8p] [qp] [8a] 5 [9s] [wf] [9f] 
+8 w t u [os] d [8wf] [sf] 
+6 [0sf] [esg] [0f] 5 [9d] [wf] [9os] 
+4 8 q e [os] a [48s] [od] 
+[9q] d [9qd] d [9q] s [9qf] [od] 
+[579]-[579]-[579] u i o 
+[80w] [to] [80wto] [yo] [579] [yp] [579ua] [yo] 
+[680yd] [ts] [680]-[680s] a [680f] [ip] 
+[468] [ip] [468ip] [oa] [579] [od] [579osf] sf 
+[80w]-[80w]-[80ws] d [80wof] [of] 
+[680] [of] [680og] [of] [579] [od] [579of] [os] 
+[468]-[468]-[468s] a [468s] [pd] 
+[9qe] [pd] [9qepd] [pd] [9qe] [uf] [9qeig] [yod] 
+[59]-[59]-[59u] o s f 
+[4tof] 8 q [8ig] [5rod] 9 w 9 
+[3ad] 7 [0oh] [7oa] [6os] 0 e 0 
+[4of] [8og] [qoh] [8os] [5os] 9 [wod] 9 
+[1s]f 5 8 0 [0wtu] o [0wts] f 
+[4tof] 8 q [8ig] [5rod] 9 w 9 
+[3od] 7 [0oh] [7oa] [6os] 0 e 0 
+[4of] [8og] [qoh] [8os] [5os] 9 [wod] 9 
+[8d]u[wo]d[ts]u[wo]s[8a]u[wo]a[ts]u[wo]s
+[6d]u[0p]d[es]u[0p]s[6a]u[0p]a[es]u[0p]s
+[4f]i[8p]f[qd]i[8p]d[4s]i[8p]s[qd]i[8p]s
+[5f]o[9a]f[wd]o[9a]d[5g]a[9d]g[wf]o[9s]d
+[8d]u[wo]d[ts]u[wo]s[8a]u[wo]a[ts]u[wo]s
+[6d]u[0p]d[es]u[0p]s[6a]u[0p]a[es]u[0p]s
+[4f]i[8p]f[qd]i[8p]d[4s]i[8p]s[qd]i[8p]s
+[5f]o[9a]f[wd]o[9a]d[5g]a[9d]g[wf]o[9s]d
+[80ws]-[80w]-[80w] u i o 
+[80w] [to] [80wto] [yo] [579] [yp] [579ua] [yo] 
+[680yd] [ts] [680]-[680s] a [680f] [ip] 
+[468] [ip] [468ip] [oa] [579] [od] [579osf] sf 
+[80w]-[80w]-[80ws] d [80wof] [of] 
+[680] [of] [680og] [of] [579] [od] [579of] [os] 
+[468]-[468]-[468s] a [468s] [pd] 
+[9qe] [pd] [9qepd] [pd] [9qe] [uf] [9qeig] [yod] 
+[59]-[59]-[59u] o s f 
+[4tof] 8 q [8ig] [5rod] 9 w 9 
+[3ad] 7 [0oh] [7oa] [6os] 0 e 0 
+[4of] [8og] [qoh] [8os] [5os] 9 [wod] 9 
+[1s]f 5 8 0 [0wtu] o [0wts] f 
+[4tof] 8 q [8ig] [5rod] 9 w 9 
+[3od] 7 [0oh] [7oa] [6os] 0 e 0 
+[4of] [8og] [qoh] [8os] [5os] 9 [wod] 9 
+[80ws] [80w] [80w] [80w] [80wj] h [579f] s 
+[4osf] 8 q [8og] [5od] 9 w 9 
+[3h][pj] [7oh] 0 [7oa] [6ps] 0 e 0 
+[4of] [8og] [qoh] [8os] [5os] 9 [wd] [9f] 
+[1s]f 5 8 0 [0wto] s [579d] f 
+[4of] 8 q [8g] [5od] 9 w 9 
+[3od] 7 [0oh] [7oa] [6os] 0 e 0 
+[4of] [8og] [qoh] [8os] [5os] 9 [wod] 9 
+[1o]s 5 8 0 [0wt]--[to] 
+[ts] [tod] [4of] [8og] [qoh] s [5os] 9 
+[wod]-[1os] 5 8 0 [0wt] o 
+s d [4f] [8g] [qh] s [5s] 9 
+[wd]-[80ws] o [80wi] u [80wu] ]]
+loadstring(game:HttpGet("https://pastebin.com/raw/xUUbCCC4"))();
+end)
+
+Tab1Section:NewButton("Dandelion", "Info", function()
+shared.stop = true -- stops the player at any time if true -- CONFIG: 
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |) 
+shared.delay = nil -- delay overides the ftime 
+shared.tempo = nil -- tempo overides the delay 
+shared.scr = [[ [ETIJ] H g g-
+S [ETig]-D S--
+[WTP] O i i-Y [tWY]-
+T Y-S [ETIP] S D g 
+D S [ETig]----
+[iWO] S D [Tg] D S [tWYD]----
+W [^*QW] 
+T T T Y T [q^*P]--
+O--[%*qi]--W T 
+i [8%(Y]--T-W [^*QW] 
+T T T Y T [q^*P]--
+O--[%*qi]--I 
+i [8%(Y]-TTi Y T [^QE] 
+[^Q] [^Q] [^Qi] Y T [q^T] [q^T] [q^T] 
+[^qi] Y T [%qi] [%q] [%q] [%q] i 
+O [%Y]-TTi Y T [^QE] 
+[^Q] [^Q] [^Qi] [^QY] [^QT] [^qg]D[q^S]P[^q] 
+[^qi] [q^Y] [q^T] [q%H]g[q%D]S[%q] [%qi] [q%Y] 
+[q%T] [s%(OD] [%(] [%(] [%(S]--
+[EIG] H G g D S [Eig]--
+g D S [iWD]--g--
+[WD]--S--
+[^QI] O I i Y T [^qi]--
+i Y T [q%Y] [%q] [%q] [%qi] [%q] 
+[%q] [%(Y]--[%SL]--[$JB] 
+[*HV] [Qgc] [Egc] Q [*DZ] [^gc] q [ESL] 
+[TSL] E q [!JB] [%HV] [*gc] [qgc] * 
+[%DZ] [%DZ] ( [WSL] [DZ] W [SL] [$PJ] 
+[*SL] [QDZ] [Egc] [QDZ] [*SL] [^gc] q E 
+T E i [*OH] [WSL] [TDZ] [igc] [TDZ] 
+[WSL] [WDZ] ( W [tS] [WD] D [QD] 
+[ES] [TP] S D D [ES] T i 
+D DDD [*D] [qS] [WS] S D 
+s [Ws] t Y T Y Y [$Y] 
+[^T] [*E] T Y Y [^T] * q 
+Y YYY [*Y] [qT] [WT] T Y 
+t [%t] 8 (----
+[IB] [PV] [Sc] c-Z 
+[Pc] S [gL] L--[TB] [iV] 
+[Oc] c-Z [OZ] s [DL] Z-
+L [IJ] [PL] [SZ] c Z L 
+[Pc] S g--[TH] [iL] 
+[OZ] c Z L [WZ]tYOL l ]]
+loadstring(game:HttpGet("https://pastebin.com/raw/xUUbCCC4"))();
+end)
+
+Tab1Section:NewButton("Death bed", "Info", function()
+shared.stop = true -- stops the player at any time if true -- CONFIG: 
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |) 
+shared.delay = nil -- delay overides the ftime 
+shared.tempo = nil -- tempo overides the delay 
+shared.scr = [[ [8f]--[0h]-h f 
+w-f j-f--
+[6f]--[8h]-h d 
+0--s h f d d 
+[4d] s s-[6s] d-f 
+8--s h f d d 
+[5d]--h 7 h-f 
+9--d s--
+[8f]-0-[wh]-[th] f--
+f j-f--
+[6f]-8-[0h]-[eh] d--
+s h f d d 
+[4d] s [6s]-[8s] d q f--
+s h f d d 
+[5d]-7 h 9 h w f----
+d s--
+[80wf]-[80w]-[80wh]-[80w] f 
+[80w]-[80wf] j [80w] f [80w]-
+[80ef]-[80e]-[80eh]-[80e] d 
+[80e]-[80e] s [80eh] f [80ed] d 
+[8qed] s [8qes]-[8qes] d [8qe] f 
+[8qe]-[8qe] s [8qeh] f [8qed] d 
+[79wd]-[79w] h [79w] h [79w] f 
+[79w]-[79w]-[79wd] s [79w]-
+[8f]-[0wt]-[8h]-[0wth] f 
+8-[0wtf] j 8 f [0wt]-
+[6f]-[0et]-[6h]-[0et] d 
+6-[0et] s [6h]-[0etd] d 
+[4d] s [8qes]-[4s] d [8qe] f 
+4-[8qe] s [4h] f [8qed]-
+[5d]-[9wr] h 5 h [9wr] f 
+5-[9wr]-[5d] s [9wr]-
+f--h-h f--
+f j-f--
+[8f] 0 w t [uh] o s [of] 
+u t w [0j]-[8f]--
+[6f] 8 0 e [th] u [ph] [ud] 
+t e 0 [8s] h [6f] d-
+4 [6s] [8s] q [es] [td] i [tf] 
+e q 8 [6s] [4h] f d-
+[5d] 7 9 [wh] r [yh] o [yf] 
+r w 9 7 [5d] s--
+[8fx] 0 w t [uhv] o [shv] [ofx] 
+u t [wfx] [0jb] 8 [7fx]--
+[6fx] 8 0 e [thv] u [phv] [udz] 
+t e 0 [8sl] [hv] [6fx] [dz] [dz] 
+[4dz] [6sl] [8sl] q [esl] [tdz] i [tfx] 
+e q 8 [6sl] [4hv] [fx] [dz] [dz] 
+[5dz] 7 9 [whv] r [yhv] o [yfx] 
+r w 9 7 [5dz] [sl]--
+x--v-v x--
+x b-x ]]
+loadstring(game:HttpGet("https://pastebin.com/raw/xUUbCCC4"))();
+end)
+
+Tab1Section:NewButton("Doki Doki forever", "Info", function()
+shared.stop = true -- stops the player at any time if true -- CONFIG: 
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |) 
+shared.delay = nil -- delay overides the ftime 
+shared.tempo = nil -- tempo overides the delay 
+shared.scr = [[ y [Gj]-[Gj] y [Gj]-[Gj] 
+y-[Gj]-[Gj] y [Gj] e [Gj] 
+r-[Gj]-[Gj] r [Gj]-[Gj] 
+r-[Gj]-[Gj] e [Gj] r [Gj] 
+y-[Gj]-[Gj] y [Gj]-[Gj] 
+y-[Gj]-[Gj] y [Gj] e [Gj] 
+w-[Gj]-[Gj] w [Gj] y [Gj] 
+e-[Gj]-[Gj] e [Gj] u [Gyj] 
+9-[ej]-[9yG]-e d 
+[9yf]-[ef] d [9yf] d [ef] d 
+[7rf]-G [Qa]-[7r]-Q-
+[7r]-Q-[7r] p [Qa] d 
+[9y]-[ej]-[9yG]-[ef] d 
+[9yf]-d [ef] d [9yf] G [ef] f 
+[5wd]-9-[5w]-9-
+[6e]-0-[6e] p [0a] d 
+[9y]-[ej]-[9yG]-e d 
+[9yf]-[ef] d [9yf] d [ef] d 
+[7rf]-G [Qa]-[7r]-Q-
+[7r]-Q-[7rp] p [Qa] d 
+[9y]-[ej]-[9yG]-e d 
+[9yf]-d [ef] d [9yf] G [ef] d 
+[5w]-9-[5w]-9-
+[6e]-0-[6e]-0-
+[I9yd]-y e e [Iyd] y e e 
+[Iyd]-y [epG] e [yof] y [Ied] e 
+[7rya]-r Q Q [rya] r Q Q 
+[rya]-r Q Q [ryp] r [Qya] Q 
+[I9yd]-y e e [Iyd] y e e 
+[Iyd]-y e e [Iyd] y [Ied] e 
+[I9wd]-w [yof] y [wpG] w [yah] y 
+[0epG]-e u [uof] [eof] e u uad
+[29]Gk-[G6j] 9 [9eG] [pf] 9 [6pd] 
+[29]-6 9 [9ea] d [9f] [6d] 
+[G7adk]-[$Gj] [7dG] [7dQG] [Gj] 7 [$Sf] 
+6-3 [6p] [60p] d [6f] [3d] 
+[G29adk]-[G6j] 9 [9eG] [pf] 9 [6pd] 
+[29]-6 [9a] [9ea] d [9G] [6f] 
+5-d [2G] [5f] [59] d [5G] [2f] 
+6-d [3d] [6a] [60a] d [6d] 3ad
+[29]Gk-[G6j] 9 [9eG] [pf] 9 [6pd] 
+[29]-6 [9a] [9ea] d [9f] [6d] 
+[G7adk]-[$Gj] 7 [7dQG] [Gj] 7 [$Sf] 
+6-3 [6p] [60p] d [6f] [3d] 
+[G29adk]-[G6j] 9 [9eG] [pf] 9 [6pd] 
+[29]-6 [9a] [9ea] d [9G] [6f] 
+5-d [2G] [5f] [59] d [5G] [2f] 
+6-d [3d] [6a] [60a] d [6d] 3 
+y-[Gj]-[Gj] y [Gj]-[Gj] 
+y-[Gj]-[Gj] y [Gj] e [Gj] 
+r-[Gj]-[Gj] r [Gj]-[Gj] 
+r-[Gj]-[Gj] e [Gj] r [Gj] 
+y-[Gj]-[Gj] y [Gj]-[Gj] 
+y-[Gj]-[Gj] y [Gj] e [Gj] 
+w-[Gj]-[Gj] w [Gj] y [Gj] 
+e-[Gj]-[Gj] e [Gj] u [Gyj] 
+9-[ej]-[9yG]-e d 
+[9yf]-[ef] d [9yf] d [ef] d 
+[7rf]-G [Qa]-[7r]-Q-
+[7r]-Q-[7r] p [Qa] d 
+[9y]-[ej]-[9yG]-[ef] d 
+[9yf]-[ef]-[9yf] G [ef] f 
+[5wd]-9-[5w]-9-
+[6e]-0-[6ep] p [0a] d 
+[9y]-[ej]-[9yG]-e d 
+[9yf]-[ef] d [9yf]-[ef] d 
+[7rf]-G [Qa]-[7r]-Q-
+[7r]-Q-[7rp] p [Qa] d 
+[9y]-[ej]-[9yG]-e d 
+[9yf]-d [ef] d [9yf] G [ef] d 
+[5w]-9-[5w]-9-
+[6e]-0-[6e]-0-
+[I9yd]-y e e [Iyd] y e e 
+[Iyd]-y [epG] e [yof] y [Ied] e 
+[7rya]-r Q Q [rya] r Q Q 
+[rya]-r Q Q [ryp] r [Qya] Q 
+[I9yd]-y e e [Iyd] y e e 
+[Iyd]-y e e [Iyd] y [Ied] e 
+[I9wd]-w [yof] y [wpG] w [yah] y 
+[0epG]-e u [uof] [eof] e u uad
+[29]Gk-[G6j] 9 [9eG] [pf] 9 [6pd] 
+[29]-6 9 [9ea] d [9f] [6d] 
+[G7adk]-[$Gj] 7 [7dQG] [Gj] 7 [$Sf] 
+6-3 [6p] [60p] d [6f] [3d] 
+[G29adk]-[G6j] 9 [9eG] [pf] 9 [6pd] 
+[29]-6 [9a] [9ea] d [9G] [6f] 
+5-d [2G] [5f] [59] d [5G] [2f] 
+6-d [3d] [6a] [60a] d [6d] 3ad
+[29]Gk-[G6j] 9 [9eG] [pf] 9 [6pd] 
+[29]-6 [9a] [9ea] d [9f] [6d] 
+[G7adk]-[$Gj] 7 [7dQG] [Gj] 7 [$Sf] 
+6-3 [6p] [60p] d [6f] [3d] 
+[G29adk]-[G6j] 9 [9eG] [pf] 9 [6pd] 
+[29]-6 [9a] [9ea] d [9G] [6f] 
+5-d [2G] [5f] [59] d [5G] [2f] 
+6-d [3d] [6a] [60a] d [6d] 3 
+[I9yd]-y e e [Iyd] y e e 
+[Iyd]-y [epG] e [yof] y [Ied] e 
+[7rya]-r Q Q [rya] r Q Q 
+[rya]-r Q Q [ryp] r [Qya] Q 
+[I9yd]-y e e [Iyd] y e e 
+[Iyd]-y e e [Iyd] y [Ied] e 
+[I9wd]-w [yof] y [wpG] w [yah] y 
+[0epG]-e u [uof] [eof] e u u 
+[29]-[Q6ey] [Q9ey] [Q9ey] [Qey] 9 6 
+[Q29ey]-[Qey] [Q6ey] [Q9ey] [Q9ey]-[Q9ey] [Q6ey] 
+7-[$Qry] [Q7ry] [Q7ry] [Qry] 7 [$Qry] 
+[60e]-[0e] 3 [60e] [60e]-[60r] 3 
+[29]-[Q6ey] [Q9ey] [Q9ey] [Qey] 9 6 
+[Q29ey]-[Qey] [Q6ey] [Q9ey] [9e] r [9I] [6u] 
+5-y [2I] [5u] [59] y [5I] [2u] 
+6-y [3y] [6r] [60r] y [6y] 3 
+[29]-[Q6ey] [Q9ey] [Q9ey] [Qey] 9 6 
+[Q29ey]-[Qey] [Q6ey] [Q9ey] [Q9ey]-[Q9ey] [Q6ey] 
+7-[$Qry] [Q7ry] [Q7ry] [Qry] 7 [$Qry] 
+[60e]-[0e] 3 [60e] [60e]-[60r] 3 
+[29]-[Q6ey] [Q9ey] [Q9ey] [Qey] 9 6 
+[Q29ey]-[Qey] [Q6ey] [Q9ey] [Q9ey]-[Q9ey] [Q6ey] 
+[7u]-y [$y] [7I] [7u] y [7y] [$I] 
+[6u]-y [3y] [6r] [6r] y [6y] 3 
+2 ]]
+loadstring(game:HttpGet("https://pastebin.com/raw/xUUbCCC4"))();
+end)
+
+Tab1Section:NewButton("Frank Sinatra - Fly Me To The Moon", "Info", function()
+shared.stop = true -- stops the player at any time if true -- CONFIG: 
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |) 
+shared.delay = nil -- delay overides the ftime 
+shared.tempo = nil -- tempo overides the delay 
+shared.scr = [[ T###y###p###[9tp]###
+[(t]###p###a###s###
+a###o###[wrtu]###[wrtu]###
+[Twru]###[Twru]###
+O###p###t###[9qet]###
+[5q]###[5q]###e###E###r###t###
+y###t###[10WE]###[W39r]###
+[0y]###[6ws]###[6wa]###[6wp]###
+[6wo]###i###[9t]###[9t]###o###[9tp]###
+[9ts]###[5qp]###P###a###[5qp]###[5qo]###
+[5qi]###u###[8r]###[8r]###[8E]###
+[8E]###[qe]###p###[qeo]###[qei]###
+[qeu]###y###[7e]###[7e]###u###[7ei]###
+[7ep]###O###[0W]###[W0i]###[W0u]###i###u###
+[W0y]###t###[6w]###[6w]###[9Q]###
+[9Q]###T###[9ty]###p###[9tp]###[9t]###
+[9t]###[(t]###[(t]###[(tp]###s###
+[(ta]###[uo]###[0y]###[0y]###[0y]###
+[0y]###[eT]###[eT]###[eT]###
+[eT]###r###[9et]###i###[9t]###i###[9t]###
+[9t]###[5q]###[5q]###t###[ip]###r###
+[uo]###e###[8yi]###[8wru]###
+[7eyp]###7###e###y###i###p###[0yWO]###p###
+a###[6us]###[us]###[7ya]###[1tp]###
+[3ro]###[ei]###2###3###o###[4p]###o###
+[6s]###[5ya]###[ya]###[6tp]###[7ro]###
+[9ei]###[wu]###8###1###2###3###
+5###$###4###p###[5o]###[6i]###
+[8u]###y###7###8###u###[9i]###
+[qp]###O###0###O###[(i]###[9u]###i###u###
+[7y]###t###6###6###7###8###
+*###9###y###[2t]###p###4###
+6###@###$###[6p]###P###a###s###
+[8a]###f###3###5###^###
+9###*###*###^###6###6###
+[5f]###f###s###s###[qety]###
+[etQY]###
+D###f###s###s###[wrtu]###
+[Twru]###u###o###p###
+s###[2f]###s###3###s###4###
+$###[5q]###[5q]###[6p]###[^P]###[7a]###[8s]###
+[9d]###[8s]###[8uOP]###[O0ya]###
+[6tuo]###[9tuI]###[E5yi]###
+[E1ip]###[E1ip]###
+p###P###a###s###[rtu]###a###p###[Tru]###
+o###i###[qeu]###o###p###[eQY]###
+s###a###[qWY]###p###o###[Wqy]###
+i###u###[0WT]###[wet]###
+4###a###j###[3h]###[2g]###h###
+[1f]###d###7###7###1###f###[2g]###
+[4j]###H###3###g###[@f]###d###2###P###
+[7a]###s###6###6###7###1###
+6###u###[6s]###u###s###a###u###w###a###p###u###p###
+[ruo]###[eti]###9###[4o]###p###P###a###
+s###$###[5a]###s###a###p###a###5###p###o###
+[Wri]###[wru]###1###E###E###
+e###[qtup]###[0tuo]###[qtui]###
+[tu]###[Wy]###3###[$tu]###[%yi]###
+[tup]###[yO]###7###[Wyi]###[Twu]###3###
+T###y###t###6###7###8###
+*###9###t###O###[Ytp]###3###
+4###$###5###O###[qp]###[Yps]###
+[Oya]###[oaf]###3###5###^###
+%###[6p]###[7a]###[*S]###
+[Pof]###f###s###[qtyps]###
+[tQY]###I###p###s###[9pD]###
+[i%D]###[5f]###s###[rtuos]###
+[Tru]###[Tru]###u###o###p###
+s###[2i]###p###s###f###s###3###[is]###4###
+$###5###v###h###v###h###
+e###E###r###t###y###t###
+[fl]###8###[gl]###9###
+[Gl]###(###[hl]###[$C]###[5v]###[1xm] ]]
+loadstring(game:HttpGet("https://pastebin.com/raw/xUUbCCC4"))();
+end)
+
+Tab1Section:NewButton("Fur elise", "Info", function()
+shared.stop = true -- stops the player at any time if true -- CONFIG: 
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |) 
+shared.delay = nil -- delay overides the ftime 
+shared.tempo = nil -- tempo overides the delay 
+shared.scr = [[ fDfDfads[6p]0etup
+3a0WuOa6s0eufDfDf
+ads6p0etup[3a]0Wusa
+6p0e-fDfDfads[6p]0e
+tup3a0WuOa6s0eufD
+fDfads6p0etup3a0W
+usa6p0easd8fwtogf
+5dwrifd[6s]0euds3a0uu
+fuffxDfDfDfDfDf
+Dfads[6p]0etup3a0Wu
+Oa[6s]0eufDfDfads6p
+0etup3a0Wusa6p0ea
+sd8fwtogf5dwrifd[6s]
+0euds3a0uufuffxD
+fDfDfDfDfDfads[6p]
+0etup3a0WuOa6s0eu
+fDfDfads6p0etup3a
+0Wusa 6p0eE[tu]set[is]wE[tu]osipqset
+e[tg]efqfE[yd]EyJEjqj[uh]qw[Eg][uf][qw][Ed][us]
+qPetpPetpo[ep]Pqsete[td]eD0fet
+[ef]9[yg][qp][ws]uwdsuas[wd]iatushohph[ioa]h[uo]sh
+y[io]dht[uo]fhlk[qe]jhgf[wr]dhgdtshohphi[oa]h[uo]shy[io]dh[tuo]fhl
+k[qe]jhgf[wr]dhgd[Wr]fgfDfafDfafDf-a
+f Df-afDfDfDf
+DfDfads6p0etup[3a]0
+WuOa6s0eufDfDfad
+s6p0etup[3a]0Wusa6p
+0easd8fwtogf5dwri
+fd6s0euds3a0uufu
+ffxDfDfDfDfDfDf
+ads6p0etup3a0WuOa
+6s0eufDfDfads[6p]0
+etup[3a]0Wusa[6p]6666
+66uoPS666666[ip]d666[S6f][6d]g[6O]dg6
+666[Odg]6[6p][sf]666626[6i]d26626
+[6us]2[6y]a[@6]tIp2@62[@6]@[@6]@@[6tp]@[@6][36t]p@[36][36us]363%ya[3%]6[tp]
+6666666[uoP]S66666[6i]pd666
+[6S]f[6d]g[6d]g666[6dg]6^[dg]^^^^^
+[^o]D^^^[^id][^Ys]^yiP^^^^[yip]^[7y]iO77
+77[yiO]7 8[tu]p----0[Wu]a--
+et6upsf[etu]dsa[et][up]sfjlx[etuz]lket[uj]lxbmx[et][uz]mn
+[et]uBbVvCcxZzLlkJjHhGgfDfads
+6p0etup3a0WuOa6s0e
+ufDfDfads6p0etup3a
+0Wusa6p0easd[8f]wto
+gf[5d]wrifd[6s]0euds3a0
+uufuffxDfDfDfDfD
+fDfads[6p]0etup3a0W
+uOa[6s]0eufDfDfads
+6p0e t u p 3a 0-W-
+u-s-a-6tp6 ]]
+loadstring(game:HttpGet("https://pastebin.com/raw/xUUbCCC4"))();
+end)
+
+Tab1Section:NewButton("Glimpse of us", "Info", function()
+shared.stop = true -- stops the player at any time if true -- CONFIG: 
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |) 
+shared.delay = nil -- delay overides the ftime 
+shared.tempo = nil -- tempo overides the delay 
+shared.scr = [[ [^i]###o###O###
+[(o]###O###P###
+[tWO]###o###
+[qti]###
+[^i]###o###O###
+[@s]###P###
+[tWP]###o###O###
+[qti]###
+[4s]###s###s###s###[Wt]###s###s###s###
+[Wt]###P###O###[Wt]###P###P###s###
+[^S]###s###P###s###[WETS]###
+[WET]###[WET]###
+[@P]###P###P###P###[wET]###P###P###P###
+[wET]###Y###[wET]###O###O###P###
+[%s]###P###O###P###[Wts]###
+[Wt]###[Wt]###
+[4s]###s###s###s###[Wt]###s###
+[Wts]###P###O###[Wtg]###h###H###
+[^S]###s###P###s###[WETS]###
+[WET]###[WET]###
+[@P]###P###P###[wETP]###P###P###P###
+[wET]###Y###Y###[wETP]###s###S###
+[%s]###[Wt]###
+[Wto]###[Wt]###O###o###
+[qi]###o###
+O###
+[(i]###o###
+S###s###s###
+[^S]###S###[TS]###s###o###
+[@S]###S###[TS]###s###P###
+[(s]###D###[(l]###H###J###
+4###H###g###t###P###s###
+[^S]###S###[TS]###s###o###
+[@S]###S###[TS]###D###g###
+[(s]###D###[(l]###H###J###
+4###H###[8g]###q###W###[qo]###[8O]###
+[^i]###q###[Ei]###i###o###E###[qO]###
+[@o]###^###(###o###[(O]###[^P]###
+[(s]###P###O###[(s]###P###P###
+[4i]###O###o###t###
+[^T]###Y###
+[@s]###P###
+8###O###O###
+[4s]###[8s]###[qs]###s###W###[qs]###[8s]###s###
+4###[8P]###O###q###W###q###P###[8P]###s###
+[^S]###q###s###[EP]###s###[TS]###E###q###
+^###q###E###T###E###q###
+[@P]###[^P]###[(P]###P###w###[(P]###[^P]###P###
+@###[^Y]###(###w###[(D]###[^S]###
+[%s]###(###P###[WO]###P###[ts]###W###(###
+%###(###W###t###W###(###
+[4s]###[8s]###[qs]###s###W###[qs]###8###
+[4s]###[8P]###O###q###[Wg]###h###q###H###8###
+[^S]###q###s###[EP]###s###[TS]###E###q###
+^###q###E###T###E###q###
+[@P]###[^P]###[(P]###[wP]###[(P]###P###^###
+[@P]###[^Y]###(###Y###[wP]###[(s]###S###^###
+[%s]###(###W###t###W###(###
+[%o]###(###W###t###O###o###
+[qi]###o###
+O###
+[(i]###o###
+S###s###s###
+[^S]###S###[TS]###s###o###
+[@S]###S###[TS]###s###P###
+[(s]###D###[(l]###H###J###
+4###H###g###t###P###s###
+[^S]###S###[TS]###s###o###
+[@S]###S###[TS]###D###g###
+[(s]###D###[(l]###H###J###
+4###H###[8g]###q###W###[qo]###[8O]###
+[^i]###q###[Ei]###i###o###E###[qO]###
+[@o]###^###(###o###[(O]###[^P]###
+[(s]###P###O###[(s]###P###P###
+[4i]###O###o###t###
+[^T]###Y###
+[@s]###P###
+[^T]###T###t###E###
+[(T]###O###o###
+[(t]###Y###
+[qt]###t###
+[^T]###T###Y###i###
+[(Y]###O###o###
+[(t]###[(Y]###
+[4i]###8###q###W###s###s###
+[^S]###S###[TS]###s###o###
+[@S]###S###[TS]###s###P###
+[(s]###D###[(l]###H###J###
+4###H###g###t###P###s###
+[^S]###S###[TS]###s###o###
+[@S]###S###[TS]###D###g###
+[(s]###D###[(l]###H###J###
+4###H###[8g]###q###W###[qo]###[8O]###
+[^i]###q###[Ei]###i###o###E###[qO]###
+[@o]###^###(###o###[(O]###[^P]###
+[(s]###P###O###[(s]###P###P###
+[4i]###O###o###t###
+[^T]###Y###
+[@s]###P###
+O###O###
+[^T]###
+[@T]###
+[%Y]###[5Y]###
+[4Y]###E###
+[^T]###
+[@T] ]]
+loadstring(game:HttpGet("https://pastebin.com/raw/xUUbCCC4"))();
+end)
+
+Tab1Section:NewButton("Haha Naru Umi ", "Info", function()
+shared.stop = true -- stops the player at any time if true -- CONFIG: 
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |) 
+shared.delay = nil -- delay overides the ftime 
+shared.tempo = nil -- tempo overides the delay 
+shared.scr = [[ [YPoz] g h c l h----
+z--
+[yipz] g h c l h----
+d--
+[YPodz] gd[sh] [sc] [Pl] h p-
+o----
+[yipgz] gg[Dh] [Dc] [dl] h s-
+d--v-m-z-
+v--c--
+[YPodzv] gd[sh] [sc] [Pl] h p-
+o--[oz]-p-
+[YPoz] g h c [dl] [sh] P s 
+[ipz] g--h--
+g p----z z 
+[wv] [yv] p a z-v b 
+Q y u p--v b 
+[qm] tnivp h-d-f-
+p----z z 
+[wydv] [yv] p a z-v b 
+Q y u p--v b 
+[qm] tnivp h-d-j-
+x----
+[YPodz] gd[sh] [sc] [Pl] h p-
+o----
+[yipgz] gg[Dh] [Dc] [dl] h s-
+d--v-m-z-
+v--c--
+[YPodzv] gd[sh] [sc] [Pl] h p-
+o--[oz]-p-
+[YPoz] g h c [dl] [sh] P s 
+[ipz] g--h--
+g p----z z 
+[wv] [yv] p a z-v b 
+Q y u p--v b 
+[qm] tnivp h-d-f-
+p----z z 
+[wydv] [yv] p a z-v b 
+Q y u p--v b 
+[qm] tnivp h-d-j-
+x----
+[YPod]-ds s P-p-
+o--[zc]--
+[ydhkz] ]]
+loadstring(game:HttpGet("https://pastebin.com/raw/xUUbCCC4"))();
+end)
+
+Tab1Section:NewButton("Happier than ever", "Info", function()
+shared.stop = true -- stops the player at any time if true -- CONFIG: 
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |) 
+shared.delay = nil -- delay overides the ftime 
+shared.tempo = nil -- tempo overides the delay 
+shared.scr = [[ o f--o 
+[8d]-[0w]-[0w] 8-[0ws]-
+[8u]-[0w]-[0wo] [8o]-p [0wa]-s 
+[0a]-[Wy]-[Wyp] [0O]-[Wy]-
+0-[yWO]-[Wyp] [0O]-p [Wya]-s 
+[6a]-[et]-[et] 6-[et]-
+[6p]-[et]-[eto] [6p]-a [ets]-d 
+[9f]-d [qef]-[qe] 9-[qe]-
+[5a]-[qro]-[qr] [5f]-[qr]-o 
+[8d]-[0w]-[0w] 8-[0ws]-
+[8u]-[0w]-[0wo] [8o]-p [0wa]-s 
+[0a]-[Wy]-[Wyp] [0O]-[Wy]-
+0-[Wy]-[Wyp] [0O]-p [Wya]-s 
+[6a]-[et]-[et] 6-[et]-
+[6p]-[et]-[eto] [6p]-a [ets]-d 
+[9f]-d [qef]-[qe] 9-[qe]-
+[5d]-s [qrd]-[qr] 5-[qra]-
+[8s]-[0w]-[0w] 8-[0w]-
+8-[0w]-[0w] 8-[0wf]-d 
+[8s]-[0w]-[0w] 8-[0ws]-d 
+[8f]-d [0ws]-[0w] 8-[0wd]-s 
+[0a]-[Wy]-[Wy] 0-p [Wya]-s 
+[0d]-s [Wya]-[Wy] 0-[Wys]-a 
+[6p]-[et]-[et] 6-p [etp]-a 
+[6s]-a [etp]-[et] 6-[etp]-a 
+q-i [Wt]-[tWO] [qs]-[Wtd]-d 
+q-[Wt]-[Wt] q-[Wtf]-d 
+[8s]-[0w]-[0w] 8-[0ws]-d 
+[8f]-d [0ws]-[0w] 8-[0wd]-s 
+[0a]-[Wy]-[Wyp] [0a]-p [Wya]-s 
+[0d]-s [Wya]-[Wy] 0-[Wys]-a 
+[6p]-o [etp]-[eto] [6p]-o [etp]-a 
+[6s]-a [etp]-[et] 6-[etp]-a 
+q-i [Wt]-[tWO] [qs]-[Wtd]-d 
+q-[Wt]-[Wt] q-f [Wtd]-s 
+[0a]-s [Wya]-[Wy] 0-s [Wya]-s 
+[0d]-f [Wyd]-[Wy] [0s]-[Wyd]-
+[6s]-[eta]-[et] [%s]-[etp]-
+[5f]-d [etf]-[et] [9j]-[Qt]----
+d-
+[9d]-f [qeg]-[qef] [9d]-[qes]-
+[5a]-[qr]-[qro] [5f]-[qr]-o 
+[8d]-[0w]-[0w] 8-[0ws]-
+[8u]-[0w]-[0wo] [8o]-p [0wa]-s 
+[0a]-[Wy]-[Wyp] [0O]-[Wy]-
+0-[yWO]-[Wyp] [0O]-p [Wya]-s 
+[6a]-[et]-[et] 6-[et]-
+[6p]-[et]-[eto] [6p]-a [ets]-d 
+[9f]-d [qef]-[qe] 9-[qe]-
+[5d]-s [qrd]-[qr] 5-[qra]-
+[8s]-[0w]-[0w] 8-[0w]-
+8-[0w]--[0w] 80w----
+[8w][8w]-[8w]-
+[8w]-[8w]-[8w]-
+[0r]-[0r]-[0r]-
+[0r]-[0r]-[0r]-
+[60]-[60]-[60]-
+[60]-[60]-[60]-
+[qe]-[qe]-[qe]-
+[qW]-[qW]-[qW]-
+[8w]-[8w]-[8w] u 
+[8wu]-[8wi]-[8wo]-
+[0ru]-[0r]-[0r]-
+[0ru]-[0ri] o [0r]-
+[60u]-[60]-[60]-
+[60u]-[60i] o [60]-
+[qei]-[qeu]-[qey]-
+[Wqt]-[Wqy] u [qW]-
+[8w]-[8w]-[8w] u 
+[8wu]-[8wi]-[8wo]-
+[0ru]-[0ry] y [0r]-
+[0ru]-[0ri]-[0ro]-
+[60u]-[60]-[60] u 
+[60u]-[60i]-[60o]-
+[qei]-[qeu]-[qey]-
+[Wqt]-[Wqy] u [qW]-
+[8ws]-[8wo]-[8wi]-
+[8wi]-[8wu]-[8wy]-
+[0r]-[0r]-[0r]-
+[0r]-[0r]-[0r]-
+[60s]-[60o]-[60i]-
+[60i]-[60u]-[60y]-
+[qet]-[qe]-[qet]-
+[Wqi]-[Wqi]-[Wqi]-
+[8wi]-[8wu]-[8wi]-
+[8wi]-[8w]-[8wu]-
+[0ry]-[0r]-[0r]-
+[0ri]-[0ri]-[0ri]-
+[60i]-[60] u [60]-
+[60i]-[60] u [60]-
+[qey]-[qe]-[qe] s 
+d-d-d-
+[1d]-[58s] s [58]-
+[58d]-[58d]-[58d]-
+[3d]-[70a] a [70]-
+[70d]-[70] d [70d]-
+[6d]-[0es]-[0es]-
+[0ef]-[0ed]-[0es]-
+[4p]-[8q]-[8q] s 
+[8qd]-[8qd]-[8qd]-
+[1d]-[58s] s [58]-
+[58d]-[58d]-[58d]-
+[3d]-[70a] a [70]-
+[70d]-[70] d [70d]-
+[6d]-[0es]-[0es]-
+[0ef]-[0ed]-[0es]-
+[4s]-[8q]-[8q]-
+[8q]-[8q]-[8q] a 
+[1s]-[58d]-[58f]-
+[58s]-[58] d [58f]-
+[3a]-[70]-[70]-
+[70]-[70]-[70]-
+[6s]-[0ed]-[0ef]-
+[0es]-[0e] d [0ef]-
+[4g]-[8qf]-[8qs]-
+[8qg]-g g--
+[1g]-[58f] f [58]-
+[58f]-[58] f [58f]-
+[3f] d [70] d [70] s 
+[70d]-[70d]-[70d]-
+[6d] s [0e] s [0e] s 
+[0ef]-[0ed]-[0es]-
+[4p]-[8qa]-[8qs]-
+[8qg]-[8qg] g [8q]-
+[1g]-[58f] f [58]-
+[58f]-[58] f [58f]-
+[3f] d [70] d [70] s 
+[70d]-[70d]-[70d]-
+[6d] s [0e] s [0e] s 
+[0ef]-[0ed]-[0es]-
+[4p]-[8q]-[8q]-
+[8q]-[8q]-[8q] a 
+[1s]-[58d]-[58f]-
+[58s]-[58d]-[58f]-
+[3a]-[70]-[70]-
+[70]-[70]-[70] a 
+[6s]-[0ed]-[0ef]-
+[0es]-[0e] d [0ef]-
+[4s]-[8q]-[8q]-
+[8q]-[8q]-[8q]-
+[1s]-[58d]-[58f]-
+[58s]-[58] d [58f]-
+[3a]-[70]-[70]-
+[70]-[70]-[70]-
+[6f]-[0ef]-[0ef]-
+[0ef]-[0ed]-[0ef]-
+[4g]-[8q]-[8q]-
+[8q]-[8q]-[8q]-
+[1f]-[58]-[58]-
+[58]-[58d]-[58s]-
+[3a]-[70]-[70]-
+[70]-[70s] d [70s] a 
+[6p]-[0e]-[0e]-
+[0e]-[0e]-[0e]-
+[4i]-[8q]-[8q]-
+[8q]-[8q]-[8q]-
+[8wt] ]]
+loadstring(game:HttpGet("https://pastebin.com/raw/xUUbCCC4"))();
+end)
+
+Tab1Section:NewButton("Worlds smallest violin", "Info", function()
+shared.stop = true -- stops the player at any time if true -- CONFIG: 
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |) 
+shared.delay = nil -- delay overides the ftime 
+shared.tempo = nil -- tempo overides the delay 
+shared.scr = [[ 180w0wtwtutuouososfsfhfh
+l-l-[sl]-[sl]-
+[qts] s s s s P p-
+[Qys] s s s s Pp--
+[wyd] d d d ds P--
+[wyd] d [eyd] d [Eyd] s P-
+[qts] s s s sP p-P 
+[Qys] s s s sP p-s 
+[wyd] d d d ds P-s 
+[wyd] d [eyd] d [Eyd]s P[ty]-
+[^Pid] [EPqid] [^Pid] [Eqd] [^d]s[qE]g^ [qE] 
+[4ips] [qeips] [4ips] [qes] [4s] [qes]g4 [qe] 
+[5P] [wEP]P5 [wEP] [5P] [wEP] [5s] [wEP] 
+[4p] [qe] [5P] [qe] [6s] [qe] 4 [qe]i
+[3o] [0wo] [3o] [0wo] [3o] [0wo] [3p] [0wo] 
+[2i] [9q] [2o] [9q] [2p] [9q] 2 [9q]p
+[5a] [wra] [5a] [wra] [5a] [wra] [5s] [wrd] 
+[1f]d[80s] 2 [80] @ [80] 3 [80ts] 
+[4ts] [qe] [4ts] [qets] [4ts] [qeEP][ep]4 [qe] 
+[$ts] [Qets] [$ts] [Qets] [$ts] [eQEP][ep]$ [Qets] 
+[^yd] [Eyig] [^ig] [Eyd] [^ig] [Eyd] [^ig] [Eyoh] 
+[*pj] [Tu] * [TLujx] [6jL] [TLeujx] [6jL] [Teupj] 
+[^oh] [^9ig] [^yd] [^9ig] [7oh] [79ig][ig]7 [79oh] 
+[1pj] [8qsl] [1sl] [8qpj] [2dz] [Q9sl][sl]2 [Q9pj] 
+[5pj] [Ewig] [5ig] [Ewpj] [^pj] [Etig][ig]^[ig][Et] 
+[4ig] [qe] [4ipsg] [qe] [4gjlc] [qe] [4cbm] [qe] 
+[Eqz] z [^z] z [^z] lc^-
+[8qel] l [4l] l [4l] Jc4-
+[9wEJ] J [5J] J [5J] j [5l] J 
+[4j] [qe] [5J] [qe] [%k] [qe] [6l] [qe] 
+[*eh] h [6h] h [6h] h [6j] h 
+[9eg]-[2g]GhHjJ[2k]lLZx[2c]-
+[Ewc] c [^c] c [^x] z [^l] j 
+[wth]-[8osfh]-[8uosf]-[8tuos] s 
+[qts] s [4s] s [4s] P [4p] P 
+[Qys] s [$s] s [$s] Pp$-
+[wyd] d [5d] d [5d] sP5-
+[wyd] d [eyd] d [Eyd] sP5 w 
+[qts] s [4s] s [4s] Pp4-
+[Qys] s [$s] s [$s]P p$-
+[wyd] d [5d] d [5d]s P5-
+[wyd] d [eyd] d [Eyd]s P[ty]-
+[^Pid] [EPqid] [^Pid] [EPqd] [^Pd]s[qE][Pdg]^ [qE] 
+[4ips] [qeips] [4ips] [qeps] [4ps]s[qe][psg]4 [qe] 
+[5oP] [woEP][oP]5 [woEP] [5oP] [woEP] [5os] [woEP] 
+[4ip] [qe] [5oP] [qe] [6ps] [qe] [4gjlc] [qe]i
+[3uo] [0wo] [3uo] [0wo] [3uo] [0wo] [T3up] [0wo] 
+[2yi] [9q] [2uo] [9q] [2ip] [9q] 2 [9q]p
+[5oa] [wroa] [5oa] [wroa] [5oa] [wroa] [5os] [wrod] 
+[1uosf]d[80s] [2i] [80] [@I] [80] [3o] [80ts] 
+[4ts] [qe] [4ts] [qets] [4ts] [qeEP][ep]4 [qe] 
+[$ts] [Qets] [$ts] [Qets] [$ts] [eQEP][ep]$ [Qets] 
+[^yd] [Eyig] [^ig] [Eqyd] [^ig] [Eqyd] [^ig] [Eqoh] 
+[6pj] [Tu] 6 [TLujx] [6jL] [TLeujx] [6jL] [Teupj] 
+[^oh] [^9ig] [^yd] [^9ig] [7oh] [79ig][ig]7 [79oh] 
+[1pj] [8qsl] [1sl] [8qpj] [2dz] [Q9sl][sl]2 [Q9pj] 
+[5pj] [Ewig] [5ig] [Ewpj] [^pj] [Etig][ig]^[ig][Et] 
+[4ig] [qe] [4ipsg] [qe] [4gjlc] [qe] [4cbm] [qe] 
+[Eqz] z [^z] z [^z] lc^-
+[8qel] l [4l] l [4l] Jc4-
+[9wEJ] J [5J] J [5J] J [5J]l J 
+[4j] [qe] [5j]HG[qe]fd%sP[qep]OoI[6i] [qe] 
+[*Teuo] [Tuo] [T6uo] o [6o] o [6o]p o 
+[9ei]-2IopPsSdDf2GhjJlLzZx[2c]-
+[Ewc]vcvcvcvc^vcvc [^x] z [^l] j 
+[wth] sf[8h]lhl[8x]vxv[8m]-
+[qts] s [4s] s [4s] Pp4-
+[Qys] s [$s] d [$s]P p$-
+[wyd] d [5d] d [5d] sP5-
+[wyd] d [eyd] d [Eyd] sP5 [ws] 
+[qts]-[4s] s [4s] Pp4-
+[Qys] s [$s] s [$s] Pp$ s 
+[wyd] g [5g] d [5g] d [5g] h 
+[T0ej] eTupSfjLxb----
+p-
+[^Eqo] i [^Eqy] i [7wro] i [7wri] o 
+[8etp] s [8ets] p [9eyd] s [9eys] p 
+[^Eqo] i [^Eqy] i [7wro] i [7wri] o 
+[8etp] s [8ets] p [9eyd] s [9eys] p 
+[^Eqo] i [^Eqy] i [7wro] i [7wri] o 
+[8etp] s [8ets] p [9eyd] s [9eys] p 
+[^Eqo] i [^Eqy] i [7wro] i [7wri] o 
+[8etp] s [8ets] p [9eyd] s [9eys] [pj] 
+[^Eqoh] [ig] [^Eqyd] [ig] [7wroh] [ig] [7wrig] [oh] 
+[8etpj] [sl] [8etsl] [pj] [9eydz] [sl] [9eysl] [pj] 
+[^Eqoh] [ig] [^Eqyd] [ig] [7wroh] [ig] [7wrig] [oh] 
+[8etpj] [sl] [8etsl] [pj] [9eydz] [sl] [9eysl] [pj] 
+[59wpj]-[59wig]-[59wig]-[59wpj]-
+[8wtpj]-[8wtig]-[8wtig]-[8wtig]-
+[4qgjlc]-4 ]]
+loadstring(game:HttpGet("https://pastebin.com/raw/xUUbCCC4"))();
+end)
